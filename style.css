@@ -1,0 +1,327 @@
+@import url("//fonts.googleapis.com/css?family=Roboto:100,300,500,700,100i,300i,500i,700i");@import url("//fonts.googleapis.com/css?family=Big+Shoulders+Text:100,200,300,400,500,600,700,800,900");@import url("//fonts.googleapis.com/css?family=Lora:400,700,400i,700i");/*! uswds @version */
+
+/* Logo */
+
+.usa-logo {
+    margin-left: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+    overflow: hidden;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #F1F1F1;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 5px 5px;
+    height: 30px;
+    width: 100%;
+    margin:0;
+}
+
+.nav-bar a {
+    padding: 25px;
+    color: #4D4D4D;
+    vertical-align: middle;
+}
+
+.nav-bar a:hover {
+    background-color: #D9D9D9;
+}
+
+.nav-dropdown {
+    float: left;
+    padding: 0 0 0 0;
+
+}
+
+
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.nav-dropdown-content a {
+    float: none;
+    color: #4D4D4D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+    display: block;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #F1F1F1;
+    padding: 10px;
+}
+
+.footer-city {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.copyright {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Index */
+
+.page-title {
+    font-family: "Big Shoulders Text", sans-serif;
+    font-size: 200px;
+    position: absolute;
+    left: 360px;
+    top: 50px;
+    width: 70%;
+}
+
+.page-subtitle {
+    font-family: "Big Shoulders Text", sans-serif;
+    font-size: 80px;
+    position: absolute;
+    left: 360px;
+    top: 350px;
+    width: 70%;
+    margin-bottom: 400px;
+}
+
+.page-content {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    width: 50%;
+    position: relative;
+    left: 500px;
+}
+
+img {
+    position: relative;
+    opacity: 100%;
+}
+
+.usa-logo {
+    opacity: 100%;
+}
+
+.quote {
+    font-size: 50;
+    left: -110px;
+    width: 75%;
+}
+
+/* Bio Page */
+
+.about-head {
+    font-family: "Big Shoulders Text", sans-serif;
+    font-size: 150;
+    margin: auto;
+    width: 90%;
+    
+}
+
+.bio-name {
+    font-family: "Big Shoulders Text", sans-serif;
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.bio-school {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #545454;
+    margin-bottom: 0px;
+}
+
+.bio-degree {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #545454;
+    font-weight: 300;
+}
+
+.bio {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Idea Page */
+
+.idea-title {
+    position: relative;
+    font-family: "Big Shoulders Text", sans-serif;
+    font-size: 85px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    background-color: #41B6E6;
+    text-align: center;
+}
+
+.idea-rectangle {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    background-color: #41B6E6;
+    z-index: -5;
+    opacity: 0%;
+}
+
+.idea-subtitle {
+    position: relative;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 200;
+    margin-left: 0;
+    text-align: center;
+}
+
+.idea-author {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: gray;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 0;
+    text-align: center;
+}
+
+
+.idea-grid-item {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    margin-left: 1.5rem;
+}
+
+.idea-section {
+    font-weight: 150;
+    margin-left: 1.5rem;
+}
+
+.idea-content {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    position: relative;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+li {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    position: relative;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.idea-figure {
+    position: absolute;
+    top: 400px;
+    width: 100%; 
+    opacity: 20%;
+}
+
+/* Category */
+
+.category-head {
+    font-family: "Big Shoulders Text", sans-serif;
+    font-size: 140px;
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Scrolly */ 
+
+.scrolly {
+    position: relative;
+    font-family: "Big Shoulders Text", sans-serif;
+    font-size: 60px;
+}
+
+.scrolly article {
+    position: relative;
+    min-height: 10vh;
+}
+
+.scrolly article .step {
+    margin-bottom: 100px; 
+    position: relative;
+    width: 1000px;
+}
+
+.scrolly article .step a {
+    text-align: left;
+    position: relative;
+    color: black;
+    padding-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    display: block;
+    width: 50%;
+}
+
+.scrolly article .step p {
+    transition: background-color 250ms ease-in-out;
+    position: relative;
+    margin-left: 45%;
+    margin-top: 20%;
+    margin-bottom: 0px;
+}
+
+.attribution {
+    transition: background-color 250ms ease-in-out;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 60px;
+    height: 70px;
+}
+
+.scrolly figure.sticky {
+    position: sticky;
+    width: 50%;
+    height: 50vh;
+    margin: 0;
+    top: 25vh;
+    left: 60vw; 
+}
