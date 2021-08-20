@@ -325,3 +325,37 @@ li {
     top: 25vh;
     left: 60vw; 
 }
+
+/* Media Queries */
+@media screen and (max-width: 959px) {
+    body {
+        display: block;
+    }
+    header {
+        justify-content: center;
+        align-content: center;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    /* Home Page */
+    .page-title {
+        font-size: 200px;
+    }
+
+    .page-subtitle {
+        font-size: 80px;
+    }
+
+    .page-content {
+        font-size: 18px;
+    }
+    
+    .quote {
+        font-size: 50;
+
+    }
+
+}
