@@ -349,10 +349,13 @@ li {
     .page-title {
        display: block;
        position: relative;
+       margin-bottom: 20%;
     }
 
     .page-subtitle {
        position: relative;
+       margin-top: 20%;
+       padding: 10%;
     }
 
     .page-content {
