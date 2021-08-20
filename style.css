@@ -339,14 +339,18 @@ li {
     .nav-bar {
         display: block;
     }
+    
+    .nav-dropdown {
+        display: block;
+    }
 
     /* Home Page */
     .page-title {
-        font-size: 100%;
+       /* font-size: 100%; */
     }
 
     .page-subtitle {
-        font-size: 60%;
+       
     }
 
     .page-content {
@@ -356,6 +360,13 @@ li {
     .quote {
         font-size: 50;
 
+    }
+    
+    /* About Page */
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
     }
 
 }
