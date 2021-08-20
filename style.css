@@ -337,6 +337,7 @@ li {
     }
 
     .nav-bar {
+        overflow: visible;
         display: block;
     }
     
@@ -365,8 +366,7 @@ li {
     /* About Page */
     
     .grid-container {
-        display: grid;
-        grid-template-columns: 100%;
+        display: block;
     }
 
 }
