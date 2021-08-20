@@ -342,11 +342,11 @@ li {
 
     /* Home Page */
     .page-title {
-        font-size: 200px;
+        font-size: 100%;
     }
 
     .page-subtitle {
-        font-size: 80px;
+        font-size: 60%;
     }
 
     .page-content {
