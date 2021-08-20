@@ -350,20 +350,22 @@ li {
        display: block;
        position: relative;
        margin-bottom: 20%;
+       font-size: 50%;
     }
 
     .page-subtitle {
        position: relative;
        margin-top: 20%;
        padding: 10%;
+       font-size: 40%;
     }
 
     .page-content {
-        font-size: 18px;
+        font-size: 20%;
     }
     
     .quote {
-        font-size: 50;
+        font-size: 20%;
 
     }
     
