@@ -18,13 +18,13 @@
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     padding: 10px 20px 5px 5px;
-    height: 30px;
+    height: 10%;
     width: 100%;
     margin:0;
 }
 
 .nav-bar a {
-    padding: 25px;
+    padding: 25%;
     color: #4D4D4D;
     vertical-align: middle;
 }
@@ -347,11 +347,12 @@ li {
 
     /* Home Page */
     .page-title {
-       /* font-size: 100%; */
+       display: block;
+       position: relative;
     }
 
     .page-subtitle {
-       
+       position: relative;
     }
 
     .page-content {
