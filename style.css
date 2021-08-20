@@ -357,15 +357,15 @@ li {
        position: relative;
        margin-top: 20%;
        padding: 10%;
-       font-size: 40%;
+      /* font-size: 40%; */
     }
 
     .page-content {
-        font-size: 20%;
+     /*   font-size: 20%; */
     }
     
     .quote {
-        font-size: 20%;
+       /* font-size: 20%; */
 
     }
     
